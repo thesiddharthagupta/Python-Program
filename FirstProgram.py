@@ -1,0 +1,8 @@
+name = input("enter name :")
+age = int(input("Enter your age: "))
+roll = int(input("Enter your Roll number: "))
+section = input("Enter your class section: ")
+print("you entered :", name)
+print("you entered :", age)
+print("you entered :", roll)
+print("you entered :", section)
