@@ -13,7 +13,7 @@
 
 
 # by while loop:
-n = int(input("Enter natural number: "))
+n = int(input("Enter natural number: "))  #ask the user how many number to sum
 i = 1
 total = 0
 while(i<n):
