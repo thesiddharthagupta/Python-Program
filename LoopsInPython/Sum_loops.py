@@ -13,12 +13,12 @@
 
 
 # by while loop:
-n = int(input("Enter natural number: "))
+n = int(input("Enter natural number: "))  #ask the user how many number to sum
 i = 1
 total = 0
 while(i<n):
     i += 1
     total += i
 
-    print("the sum of natural number are: ", total)
+    print("the sum of natural number is: ", total)
 
