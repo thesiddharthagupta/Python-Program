@@ -18,7 +18,7 @@ i = 1
 total = 0
 while(i<n):
     i += 1
-    total += i
+    total += i # adding in total  "total = total + i"
 
     print("the sum of natural number is: ", total)
 
