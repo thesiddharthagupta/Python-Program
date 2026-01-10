@@ -9,7 +9,7 @@ if spam1 > spam2 and spam1 > spam3:
     print("the greater number is : ", spam1)
 elif spam2 > spam3 and spam2 > spam1:
     print("the greater number is: ", spam2)
-elif spam3 > spam1 and spam3 >  spam2
+elif spam3 > spam1 and spam3 >  spam2:
     print("the greater number is: ", spam3)
 else:
     print("equal")
