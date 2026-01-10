@@ -3,4 +3,4 @@
 
 total = 0
 n = int(input("Enter  digits"))
-for i in range 
+for i in n()
