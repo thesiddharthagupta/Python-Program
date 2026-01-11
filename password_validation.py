@@ -1,7 +1,7 @@
 '''Write a program to check login validation.'''
 
-Correct_username = "siddharthgupta"
-correct_password = "Siddgupta_27"
+Correct_username = "Admin98760"
+correct_password = "Pass1234"
 
 usrnam = input("Enter username: ")
 psswed = input("Enter password: ")
