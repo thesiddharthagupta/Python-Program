@@ -1,12 +1,12 @@
 '''Write a program to check login validation.'''
 
-Correct_username = "thesiddharthagupta"
+Correct_username = "siddharthgupta"
 correct_password = "Siddgupta_27"
 
-username = input("Enter username: ")
-password = input("Enter password: ")
+usrnam = input("Enter username: ")
+psswed = input("Enter password: ")
 
-if Correct_username == username and correct_password == password:
+if Correct_username == usrnam and correct_password == psswed:
     print("You Entered Corect password")
 else:
     print("you entered Wrong Passwprd")
