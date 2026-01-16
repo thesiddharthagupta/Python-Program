@@ -3,4 +3,4 @@ collection = {
     "table"     :   ["a piece of furniture", "list of facts & figures" ]
 }
 
-print(collection)
+print(collection)  # to print
