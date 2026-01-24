@@ -1,9 +1,9 @@
 data = {
-    "name": "Siddharth",
-    "subjects": {
-        "phy": 98,
-        "chem": 97,
-        "math": 99
+    "name"      : "Siddharth",
+    "subjects"  : {
+        "phy"   : 98,
+        "chem"  : 97,
+        "math"  : 99
     }
 }
 
