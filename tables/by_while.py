@@ -10,7 +10,8 @@ def table(a):
 table(num)
 
 
-
+                            
+                            # < another method >
 # by without parameter
 
 # num = int(input("ENter a number: "))
