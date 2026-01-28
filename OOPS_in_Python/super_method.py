@@ -1,12 +1,18 @@
 class Employee:
+    def __init__(self):
+        print("Constructor of Employee")
     a = 1
 
-    @classmethod
-    def show(cls):
-        print(f"The class attributes is {cls.a}")
+class Programmer(Employee):
+    def __init__(self):
+        print("Constructor of Programmer")
+    b = 2
 
+class manager(Programmer):
+    def __init__(self):
+       super().__init__()
+       print("Constructor of manager")
+    c = 3
 
-e = Employee()
-e.a = 45
-
-e.show()
+x = manager()
+print(x.a, x.b, x.c)
