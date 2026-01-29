@@ -3,4 +3,4 @@ def sum(n):
         return 1
     return sum(n-1) + n
 
-print(sum(4))
+print(sum(3))   #sum of neg numbers
