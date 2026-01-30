@@ -1,0 +1,6 @@
+Lst = ["siddhu", "rahul" , 27, 12, 98.8]
+Lst.append(9)
+ind = Lst.index(27)
+print(Lst)
+
+print(ind) #for to  find the index of list
