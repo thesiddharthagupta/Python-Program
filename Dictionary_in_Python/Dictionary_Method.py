@@ -16,10 +16,13 @@ print(student)
 new_student = student.copy()
 print(new_student)      #to create new student
 
-print(student.clear())
 
-student.pop("marks")
+student.pop("marks")      #remove specific key
 print(student)
+
+print(student.popitem())   #remove last item automatically
+
+print(student.clear())  #to clear the whole  dict
 
 
 
