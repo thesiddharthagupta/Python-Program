@@ -9,14 +9,14 @@ count = len(responseTimes)          # how many values
 mean = total / count               # average
 
 # ----- STANDARD DEVIATION -----
-sumSq = 0
+sumSquare = 0
 
 for t in responseTimes:
     diff = t - mean                # difference from mean
-    sumSq += diff ** 2             # square and add
+    sumSquare += diff ** 2             # square and add
 
-std = math.sqrt(sumSq / count)     # divide and square root
+std = math.sqrt(sumSquare / count)     # divide and square root
 
 # ----- OUTPUT -----
 print("Mean:", round(mean, 2))
-print("Standard Deviation:", round(std, 2))
+print("Standard Deviation:", round(std, 2))     #for the round to 2nd dicimal point value
