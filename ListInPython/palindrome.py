@@ -4,6 +4,6 @@ copy_list = lst.copy()
 copy_list.reverse()
 
 if copy_list == lst:
-    print("This is palindrome")
+    print("This is Palindrome")
 else:
-    print("This is not palindrome")
+    print("This is not Palindrome")
