@@ -6,6 +6,6 @@ elif spam < 0:
 elif spam == 0:
     print("The number is Zero: ", spam)
 else:
-    print("Invalid Number")
+    print("Invalid Number")     #if condn failed invalid number
 
 
