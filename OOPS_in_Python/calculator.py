@@ -23,4 +23,3 @@ a.cube()
 a.Add()
 a.Subtract()
 a.SquareRoot()
-        
