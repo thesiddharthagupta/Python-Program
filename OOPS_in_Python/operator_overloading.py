@@ -5,7 +5,11 @@ class Number:
     def __add__(self, num):
         return self.n + num.n
     
+    def __mul__(self, num):
+        return self.n * num.n
+    
 n = Number(1)
 m = Number(2)
 
 print(n + m)
+print(n * m)
