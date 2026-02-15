@@ -1,7 +1,7 @@
 class Employee:
     a = 1
 
-    @classmethod
+    @classmethod    #runs only on class attribute!
     def show(cls):
         print(f"The class attributes is {cls.a}")
 
