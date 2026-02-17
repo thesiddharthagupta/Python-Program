@@ -17,7 +17,7 @@ class calculator:
     def Subtract(self):
         print(f"the Subtract is {self.n - self.n}")
 
-a = calculator(4)
+a = calculator(int(input("Enter a number: ")))
 a.square()
 a.cube()
 a.Add()
