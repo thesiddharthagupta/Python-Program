@@ -6,7 +6,7 @@ class programmer:
         self.pin = pin
 
 p = programmer("Siddhu", 24000000, 24016 )
-print(p.name, p.salary, p.pin, p.company)
+print(f"name : {p.name}\nsalary: {p.salary}\npin {p.pin}\ncompany: {p.company} ")
 
 r = programmer("Rahul", 24000000, 24016 )
-print(r.name, r.salary, r.pin, r.company)
+print(f"name : {r.name}\nsalary: {r.salary}\npin {r.pin}\ncompany: {r.company} ")
